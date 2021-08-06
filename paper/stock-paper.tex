@@ -13,7 +13,7 @@
 
 
 \title{Brief Article}
-\author{The Author}
+\author{}
 \date{August 30, 2021}							% Activate to display a given date or no date
 
 \begin{document}
@@ -22,7 +22,9 @@
 \section{Abstract}
 \section{Introduction}
 \section{Related Works}
-There has been a lot of research on how to predict stock prices.
+Over the past couple of decades, numerous approaches on predicting stock market were studied. The works evolved from simple statistical analysis and machine learning to deep learning models that are leading the development of the stock market prediction field. These models can be classified into two categories which are conventional technical analysis(TA) and fundamental analysis(FA) that is widely adopted in recent studies.
+Technical Analysis(TA): Conventional TA methods lay its focus only on numerical features such as stock price or volume data. For example [1] employed recurrent neural network(RNN) through long short-term memory(LSTM) network using historical price data as input. TA based methods however, failed to capture other stock-affecting factors that are directly or indirectly relevant to stock movement.
+Fundamental Analysis(FA): FA models are based on the fact that there are determinants other than historical prices. FA models made progress by leveraging natural language processing(NLP) methods, using news and social media data as variables. [StockNet] forecast stock movement by jointly exploiting text and price signals where they used Twitter as text data. These text-combined approaches made way for analyzing unstructured data in the stock predicting field. The drawback of these approaches however, is that they treat each stock as independent of each other, failing to capture the inter stock relations. To resolve the issue, graph-based models were introduced. [2] models temporal evolution and relation network of stocks. [3] also used graph neural network(GNN) to untangle the complex relationship of each stock and the overall industry. Motivated by these previous works, [MAN-SF] blended inter stock relations with price and textual data in a hierarchical temporal fashion.
 \section{Model}
 \section{Experiments}
 \section{Result and Analysis}
