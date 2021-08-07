@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.31)  6 AUG 2021 22:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.31)  7 AUG 2021 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -172,10 +172,36 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+)
+Underfull \hbox (badness 1122) in paragraph at lines 29--30
+[]\OT1/cmr/m/n/10.95 Fundamental Anal-y-sis(FA): FA mod-els
+ []
 
 
-] (./stock-paper.aux) ) 
+Underfull \hbox (badness 2884) in paragraph at lines 29--30
+\OT1/cmr/m/n/10.95 are based on the fact that there are
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 29--30
+\OT1/cmr/m/n/10.95 un-der-ly-ing forces other than his-tor-i-cal
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 29--30
+\OT1/cmr/m/n/10.95 prices(Suresh, 2013). FA mod-els made
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] [2
+
+]
+(./stock-paper.aux) ) 
 Here is how much of TeX's memory you used:
  2214 strings out of 478994
  31013 string characters out of 5858184
@@ -183,16 +209,16 @@ Here is how much of TeX's memory you used:
  19709 multiletter control sequences out of 15000+600000
  409279 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,5n,74p,1004b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb>
-Output written on stock-paper.pdf (1 page, 52893 bytes).
+ 68i,5n,74p,1126b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb>
+Output written on stock-paper.pdf (2 pages, 55685 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 27 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
