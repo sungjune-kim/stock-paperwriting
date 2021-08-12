@@ -1,32 +1,51 @@
 \documentclass[11pt, oneside, twocolumn]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
 \usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
-\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+\geometry{a4paper, top=30mm, bottom=30mm}                   		% ... or a4paper or a5paper or ... 
 %\geometry{landscape}                		% Activate for rotated page geometry
 %\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
 								% TeX will automatically convert eps --> pdf in pdflatex		
 \usepackage{amssymb}
-
+\usepackage{blindtext}
 %SetFonts
 
 %SetFonts
 
 
-\title{Brief Article}
-\author{}
-\date{August 30, 2021}							% Activate to display a given date or no date
+\title{Stock prediction... seriously?}
+\author{kuaicv}
+\date{August 30, 2021}
+\setlength{\columnsep}{0.3in}
+
+%Abstract paragraph indentation
+\renewenvironment{abstract}
+{\small
+\begin{center}
+\bfseries \abstractname\vspace{-.5em}\vspace{0pt}
+\end{center}
+\list{}{
+	\setlength{\leftmargin}{.4cm}
+	\setlength{\rightmargin}{\leftmargin}
+}
+\item\relax}
+{\endlist}
+
 
 \begin{document}
 \maketitle
 
-\section{Abstract}
+
+\begin{abstract}
+	\blindtext
+\end{abstract}
+
 \section{Introduction}
 \section{Related Works}
 Over the past couple of decades, numerous approaches on predicting stock market were studied. The works evolved from simple statistical analysis and machine learning to deep learning models that are leading the development of the stock market prediction field(Jiang, 2020). Financial analysis like stock market prediction rely on two complementary approaches which are technical analysis(TA) and fundamental analysis(FA)(Bettman et al., 2009). Both methods, applied with deep learning, are vitalizing the field of stock prediction.
 
 Technical Analysis(TA): TA methods lay its focus only on numerical features such as stock price or volume data. For example Ding and Qin(2019) employed recurrent neural network(RNN) through long short-term memory(LSTM) network using historical price data as input. TA based methods however, failed to capture other stock-affecting factors that are directly or indirectly relevant to stock movement. 
 
-Fundamental Analysis(FA): FA models are based on the fact that there are underlying forces other than historical prices(Suresh, 2013). FA models made progress by leveraging natural language processing(NLP) methods, using text data as variables. Hu et al. (2018) used sequence of related news to predict the stock trend. In a similar context, Xu and Cohen (2018) forecast stock movement by jointly exploiting text and price signals where they used Twitter as text data. These text-combined approaches made way for analyzing unstructured data in the stock predicting field. The limitation of these approaches however, is that they treat each stock as independent of each other, failing to capture the inter stock relations. To resolve the issue, several graph-based models were introduced. Chen and Wei(2018) captured information of related corporations with graph convolutional neural network. Feng et al.(2018) models the temporal evolution and relation network of stocks. Taking this further, Sawhney et al.(2020) blended inter stock relations with price and textual data in a hierarchical temporal fashion.
+Fundamental Analysis(FA): FA models are based on the fact that there are underlying forces other than historical prices(Suresh, 2013). FA models made progress by leveraging natural language processing(NLP) methods, using text data as variables. Hu et al. (2018) used sequence of related news to predict the stock trend. In a similar context, Xu and Cohen (2018) forecast stock movement by jointly exploiting text and price signals where they used Twitter as text data. These text-combined approaches made way for analyzing unstructured data in the stock predicting field. The limitation of these approaches however, is that they treat each stock as independent of each other, failing to capture the inter stock relations. To resolve the issue, several graph-based models were introduced. Chen and Wei(2018) captured information of related corporations with graph convolutional neural network. Feng et al.(2018) models the temporal evolution and relation network of stocks. Taking this further, Sawhney et al.(2020) blended inter stock relations with price and textual data in a hierarchical temporal fashion. 
 \section{Model}
 \section{Experiments}
 \section{Result and Analysis}
