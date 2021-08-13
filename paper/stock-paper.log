@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.31)  12 AUG 2021 20:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.31)  13 AUG 2021 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -202,35 +202,57 @@ Underfull \hbox (badness 3668) in paragraph at lines 40--40
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 48--49
-\OT1/cmr/m/n/10.95 els are based on the fact that there
+Underfull \hbox (badness 5217) in paragraph at lines 47--48
+[]\OT1/cmr/m/n/10.95 Financial anal-y-sis like stock mar-
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 5008) in paragraph at lines 47--48
+\OT1/cmr/m/n/10.95 ket pre-dic-tion rely on two com-ple-
+ []
 
- [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+Underfull \hbox (badness 1163) in paragraph at lines 47--48
+\OT1/cmr/m/n/10.95 men-tary ap-proaches which are tech-ni-
+ []
 
 
-] [2
+Underfull \hbox (badness 1097) in paragraph at lines 49--50
+\OT1/cmr/m/n/10.95 ex-am-ple **Ding and Qin(2019)** em-
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 49--50
+\OT1/cmr/m/n/10.95 ployed re-cur-rent neu-ral net-work(RNN)
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 51--52
+\OT1/cmr/m/n/10.95 els are based on the fact that there
+ []
+
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
 
 ]
-(./stock-paper.aux) ) 
+[2
+
+] (./stock-paper.aux) ) 
 Here is how much of TeX's memory you used:
  2401 strings out of 478994
  34246 string characters out of 5858184
- 333153 words of memory out of 5000000
+ 333139 words of memory out of 5000000
  19886 multiletter control sequences out of 15000+600000
  409587 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,74p,1179b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr17.pfb>
-Output written on stock-paper.pdf (2 pages, 69038 bytes).
+ 68i,7n,74p,1202b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb>
+Output written on stock-paper.pdf (2 pages, 68758 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
